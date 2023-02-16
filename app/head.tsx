@@ -6,5 +6,5 @@ export default function Head() {
       <meta name="description" content="Magnum Global Ventures Landing Site" />
       <link rel="icon" href="/favicon.ico" />
     </>
-  )
+  );
 }
