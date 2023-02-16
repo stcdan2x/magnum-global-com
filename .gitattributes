@@ -1,0 +1,59 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+## SOURCE CODE
+*.css      text
+*.gql      text
+*.html     text
+*.js       text
+*.json     text
+*.jsx      text
+*.scss     text
+*.sh       text eol=lf
+*.ts       text
+*.tsx      text
+*.xml      text
+
+## DOCKER
+*.dockerignore    text
+Dockerfile        text
+
+## DOCUMENTATION
+*.md         text
+*.txt        text
+*README*     text
+
+## LINTERS
+.eslintrc     text
+.stylelintrc  text
+
+## CONFIGS
+*.config       text
+.editorconfig  text
+.gitattributes text
+.gitconfig     text
+.npmrc         text
+.yarnrc        text
+
+## GRAPHICS
+*.bmp  binary
+*.gif  binary
+*.ico  binary
+*.jpg  binary
+*.jpeg binary
+*.pdf  binary
+*.png  binary
+*.svg  text
+*.svgz binary
+*.tif  binary
+*.tiff binary
+
+## FONTS
+*.ttf   binary
+*.eot   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+
+## EXECUTABLES
+*.exe binary
