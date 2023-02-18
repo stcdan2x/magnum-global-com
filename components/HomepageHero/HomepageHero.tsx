@@ -57,13 +57,22 @@ const HomepageHero = () => {
           </div>
         </div>
       </div>
-      <div className="z-10 absolute bottom-10 left-1/2 h-12 w-12 animate-bounce">
+      <div className="z-10 absolute bottom-10 left-1/2 h-10 w-10 animate-bounce">
         <Image
-        className="z-10 h-12 w-12"
+          className="z-10 h-10 w-10 animate-ping"
           src="/icons/chevron-down-circle-sharp.svg"
           alt="arrow down"
-          width={24}
-          height={24}
+          width={16}
+          height={16}
+        />
+      </div>
+      <div className="z-10 absolute bottom-10 left-1/2 h-10 w-10 animate-bounce">
+        <Image
+          className="z-10 h-10 w-10"
+          src="/icons/chevron-down-circle-sharp.svg"
+          alt="arrow down"
+          width={16}
+          height={16}
         />
       </div>
     </section>

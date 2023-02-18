@@ -59,7 +59,7 @@ export default function Footer() {
                     className="text-white bg-charcoal w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm"
                   />
 
-                  <button className="w-full px-6 py-3 mt-1 text-sm font-bold tracking-wide text-white uppercase transition-none bg-teal-600 rounded hover:bg-teal-700 sm:mt-0 sm:w-auto sm:flex-shrink-0">
+                  <button className="w-full px-6 py-3 mt-1 text-sm font-bold tracking-wide text-white uppercase transition-none bg-rose-700 rounded hover:bg-rose-800 sm:mt-0 sm:w-auto sm:flex-shrink-0">
                     Sign Up
                   </button>
                 </div>
