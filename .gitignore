@@ -21,6 +21,9 @@
 .vscode
 .prettierrc
 
+# public files
+/public/*.mp4
+
 # debug
 npm-debug.log*
 yarn-debug.log*
