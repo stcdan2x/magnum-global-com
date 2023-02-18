@@ -26,7 +26,7 @@ const HomepageHero = () => {
       <VideoElement />
       <div className="absolute inset-0 bg-black/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-black/95 sm:to-black/25"></div>
 
-      <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex h-3/6 lg:h-screen lg:items-center lg:px-8">
+      <div className="relative px-4 py-32 sm:px-6 lg:flex h-3/6 lg:h-screen lg:items-center lg:px-8">
         <div className="max-w-xl text-center sm:text-left">
           <h1 className="text-3xl font-extrabold sm:text-5xl">
             Unlocking potential to turn
@@ -59,7 +59,7 @@ const HomepageHero = () => {
       </div>
       <div className="z-10 absolute bottom-10 left-1/2 h-12 w-12 animate-bounce">
         <Image
-        className="z-10 h-12 w-12 animate-ping"
+        className="z-10 h-12 w-12"
           src="/icons/chevron-down-circle-sharp.svg"
           alt="arrow down"
           width={24}

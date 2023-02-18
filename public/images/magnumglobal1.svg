@@ -2,7 +2,7 @@
   xmlns="http://www.w3.org/2000/svg" viewBox="-77.18437499999999 16.4 654.36875 117.2" style="background: transparent;" preserveAspectRatio="xMidYMid">
   <defs>
     <filter id="editing-extrude-glow">
-      <feFlood flood-color="#ffffff" result="flood-1"></feFlood>
+      <feFlood flood-color="#D4AF37" result="flood-1"></feFlood>
       <feMorphology operator="erode" radius="1" in="SourceAlpha" result="erode"></feMorphology>
       <feComposite operator="in" in="flood-1" in2="erode" result="comp1"></feComposite>
       <feConvolveMatrix order="4,4" divisor="1" in="comp1" result="convolve" kernelMatrix="0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0"></feConvolveMatrix>
