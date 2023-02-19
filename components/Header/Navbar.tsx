@@ -1,10 +1,20 @@
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useMediaQuery } from '@/utils/hooks/custom';
 
 export default function Navbar() {
   const navigation = ['Product', 'Features', 'Pricing', 'Company', 'Blog'];
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isMatched, setIsMatched] = useState(false);
+  const mql = useMediaQuery('dt');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setIsMatched(mql);
+      console.log(mql);
+    }
+  }, [mql]);
 
   /*****
   TO DO: Dark mode switcher
@@ -40,7 +50,7 @@ export default function Navbar() {
       aria-label="Site Header"
       className="dark:bg-charcoal bg-red fixed top-0 left-0 w-full z-10"
     >
-      <nav className="max-w-screen-xl mx-auto relative w-full flex flex-wrap items-center justify-between pt-2 dt:pt-0 py-1 bg-charcoal text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
+      <nav className="max-w-screen-xl mx-auto relative w-full flex flex-wrap items-center justify-between py-1 bg-charcoal text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
         <div className="container-fluid w-full flex flex-wrap items-center justify-start px-6">
           <div className="flex-1 flex md:items-center md:gap-1 dt:gap-12">
             <button
@@ -187,7 +197,7 @@ export default function Navbar() {
                 </ul>
               </div>
             )}
-            <div className="dropdown relative flex justify-center  bg-rose-700 px-2 mb-1 dt:mb-0 dt:mt-1 rounded-md">
+            <div className="dropdown absolute top-[18px] right-[10px] flex justify-center  bg-rose-700 px-2 rounded-md">
               <button
                 className="dropdown-toggle flex items-center justify-center hidden-arrow h-8 w-12"
                 id="dropdownMenuButton2"
