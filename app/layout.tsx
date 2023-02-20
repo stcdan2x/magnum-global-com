@@ -9,12 +9,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  useEffect(() => {
-    const useTW = () => {
-      import('tw-elements');
-    };
-    useTW();
-  }, []);
+  // useEffect(() => {
+  //   const useTW = () => {
+  //     import('tw-elements');
+  //   };
+  //   useTW();
+  // }, []);
 
   return (
     <html lang="en">
@@ -23,9 +23,9 @@ export default function RootLayout({
          head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
        */}
       <head />
-      <body className="max-w-screen-xl mx-auto">
+      <body className="min-h-screen bg-mineShaftBlack">
         <Navbar />
-        {children}
+        <main className="min-h-[calc(100vh-788px)] dt:min-h-[calc(100vh-557px)] max-w-screen-xl mx-auto">{children}</main>
         <Footer />
       </body>
     </html>

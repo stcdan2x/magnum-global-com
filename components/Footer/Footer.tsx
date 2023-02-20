@@ -8,11 +8,11 @@ export default function Footer() {
   const legal = ['Terms', 'Privacy', 'Legal'];
 
   return (
-    <footer aria-label="Site Footer" className="footer">
-      <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-        <div className="lg:grid lg:grid-cols-2">
-          <div className="py-8 border-b border-gray-800 lg:order-last lg:border-b-0 lg:border-l lg:py-16 lg:pl-16">
-            <div className="flex items-center text-teal-600 lg:hidden">
+    <footer aria-label="Site Footer" className="footer bg-charcoal">
+      <div className="max-w-screen-xl px-4 mx-auto sm:px-6 dt:px-8">
+        <div className="dt:grid dt:grid-cols-2 w-full">
+          <div className="py-8 border-b border-gray-800 dt:order-last dt:border-b-0 dt:border-l dt:py-16 dt:pl-16">
+            <div className="flex items-center text-teal-600 dt:hidden">
               <Image
                 className="h-8 w-12"
                 src={'/images/magnumGlobalLogo1.svg'}
@@ -29,12 +29,12 @@ export default function Footer() {
               />
             </div>
 
-            <div className="mt-8 space-y-4 lg:mt-0">
-              <span className="hidden w-10 h-1 bg-teal-500 rounded lg:block"></span>
+            <div className="mt-8 space-y-4 dt:mt-0">
+              <span className="hidden w-10 h-1 bg-rose-500 rounded dt:block"></span>
 
               <div>
                 <h2 className="text-2xl font-medium text-gray-300">
-                  Request a Demo
+                  Reuqest for a sign-up form
                 </h2>
 
                 <p className="max-w-lg mt-4 text-gray-400">
@@ -59,16 +59,16 @@ export default function Footer() {
                     className="text-white bg-charcoal w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm"
                   />
 
-                  <button className="w-full px-6 py-3 mt-1 text-sm font-bold tracking-wide text-white uppercase transition-none bg-rose-700 rounded hover:bg-rose-800 sm:mt-0 sm:w-auto sm:flex-shrink-0">
-                    Sign Up
+                  <button className="w-full px-6 py-3 mt-1 text-sm font-bold tracking-wide text-white transition-none bg-rose-700 rounded hover:bg-rose-800 sm:mt-0 sm:w-auto sm:flex-shrink-0">
+                    Sign up
                   </button>
                 </div>
               </form>
             </div>
           </div>
 
-          <div className="py-8 lg:py-16 lg:pr-16">
-            <div className="hidden text-teal-600 lg:flex lg:items-center">
+          <div className="py-8 dt:py-16 dt:pr-16">
+            <div className="hidden text-teal-600 dt:flex dt:items-center">
               <Image
                 className="h-8 w-12"
                 src={'/images/magnumGlobalLogo1.svg'}

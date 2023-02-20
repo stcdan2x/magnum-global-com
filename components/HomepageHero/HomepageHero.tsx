@@ -28,14 +28,14 @@ const HomepageHero = () => {
 
       <div className="relative px-4 py-32 sm:px-6 lg:flex h-3/6 lg:h-screen lg:items-center lg:px-8">
         <div className="max-w-xl text-center sm:text-left">
-          <h1 className="text-3xl font-extrabold sm:text-5xl">
+          <h1 className="text-3xl font-extrabold text-white sm:text-5xl">
             Unlocking potential to turn
             <strong className="block font-extrabold text-rose-700">
               Ambition into action.
             </strong>
           </h1>
 
-          <p className="mt-4 max-w-lg sm:text-xl sm:leading-relaxed">
+          <p className="mt-4 max-w-lg sm:text-xl sm:leading-relaxed  text-descriptionGray">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
             illo tenetur fuga ducimus numquam ea!
           </p>

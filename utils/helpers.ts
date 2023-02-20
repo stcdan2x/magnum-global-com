@@ -1,5 +1,5 @@
 // normalize template literals to regular string for class name readability
-export const tup = (
+export const tap = (
   tempLiteral: TemplateStringsArray,
   ...stringElems: any[]
 ) => {
