@@ -1,8 +1,8 @@
-import { tup } from '@/utils/helpers';
+import { tap } from '@/utils/helpers';
 import { fontMontserrat } from '@/utils/fonts';
 
 const styles = {
-  aboutTitle: tup`
+  aboutTitle: tap`
   text-2xl
   text-cyan-300
   border-2
